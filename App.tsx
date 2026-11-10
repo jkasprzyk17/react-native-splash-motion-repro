@@ -1,10 +1,13 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import { useHideSplash } from 'react-native-splash-motion';
 
 export default function App() {
+  useHideSplash();
+
   return (
     <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
+      <Text>App content</Text>
       <StatusBar style="auto" />
     </View>
   );
