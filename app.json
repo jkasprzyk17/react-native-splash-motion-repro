@@ -32,6 +32,23 @@
           "width": 160,
           "still": "./assets/splash-first-frame.png"
         }
+      ],
+      [
+        "expo-widgets",
+        {
+          "widgets": [
+            {
+              "name": "HelloWidget",
+              "displayName": "Hello",
+              "description": "A minimal widget.",
+              "ios": {
+                "supportedFamilies": [
+                  "systemSmall"
+                ]
+              }
+            }
+          ]
+        }
       ]
     ]
   }
